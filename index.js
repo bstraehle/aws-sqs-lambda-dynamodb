@@ -5,7 +5,7 @@ const DDB = new AWS.DynamoDB({apiVersion: '2012-08-10'});
 const TABLE_NAME = process.env.TABLE_NAME;
 
 exports.handler = (event) => {
-    const message = event.Records[0].body;
+    const msg = event.Records[0].body;
 
     console.log('Message:', msg);
 
