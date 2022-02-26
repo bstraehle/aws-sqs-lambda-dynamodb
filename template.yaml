@@ -14,7 +14,7 @@ Globals:
           Ref: TableName
 Metadata:
   AWS::ServerlessRepo::Application:
-    Name: nanoservice-sqs-lambda
+    Name: nanoservice-sqs-lambda-dynamodb
     Description: Serverless nanoservice using SQS, Lambda, and DynamoDB. The Node.js Lambda service is triggered by SQS and writes messages to DynamoDB.
     Author: Bernd Straehle
     Labels: ['serverless', 'sam', 'sqs', 'lambda', 'dynamodb', 'nodejs']
