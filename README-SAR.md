@@ -2,7 +2,7 @@
 
 Start up:  
 
-- Deploy application, specifying queue name  
+- Deploy application, specifying table name  
 
 Test:  
 
