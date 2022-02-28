@@ -43,7 +43,7 @@ Resources:
             Queue:
               !GetAtt mySQSQueue.Arn
   mySQSQueue:
-    Type: 'AWS::SQS::Queue'
+    Type: AWS::SQS::Queue
   myDynamoDBTable:
     Type: AWS::Serverless::SimpleTable
     Properties:

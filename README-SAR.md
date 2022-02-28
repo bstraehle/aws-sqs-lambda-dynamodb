@@ -1,4 +1,4 @@
-# Serverless nanoservice using SQS and Lambda  
+# Serverless nanoservice using SQS, Lambda, and DynamoDB  
 
 Start up:  
 
